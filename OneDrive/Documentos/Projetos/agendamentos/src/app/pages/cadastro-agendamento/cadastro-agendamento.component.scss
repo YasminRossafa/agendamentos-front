@@ -1,0 +1,65 @@
+// cadastro-agendamento.component.scss
+
+.box-cadastro-form {
+  .box-card {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+    .box-card-title {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .box-form {
+      .form-floating {
+        margin-bottom: 1rem;
+
+        input.form-control {
+          border-radius: 4px;
+        }
+
+        label {
+          font-size: 0.875rem;
+          color: #666;
+        }
+      }
+
+      button {
+        margin-top: 1rem;
+      }
+    }
+
+    .box-list {
+      margin-top: 2rem;
+
+      h3 {
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        color: #333;
+      }
+
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th, td {
+          padding: 0.75rem;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+          background-color: #f8f9fa;
+          color: #333;
+        }
+
+        .btn {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}

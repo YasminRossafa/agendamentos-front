@@ -1,0 +1,33 @@
+// Variáveis para cores e espaçamento
+$primary-color: #ffffff;
+$secondary-color: #474c50;
+$background-color: #2190ff;
+$text-color: #000000;
+$padding: 20px;
+$margin: 20px;
+
+// Estilos para o header
+.box-header {
+  background-color: $background-color;
+  padding: $padding;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .container-xxl {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .box-header-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    color: $primary-color;
+    font-size: 1.75rem;
+    margin: 0;
+    padding: $margin 0;
+    text-align: center;
+  }
+}
